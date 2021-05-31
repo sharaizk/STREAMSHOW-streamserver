@@ -1,6 +1,7 @@
 const NodeMediaServer = require('node-media-server');
 
 const config = {
+  
   rtmp: {
     port: 443 ,
     chunk_size: 60000,
@@ -11,6 +12,11 @@ const config = {
   http: {
     port: 80,
     allow_origin: '*'
+  },
+  https: {
+    port: 80,
+    key:'./privatekey.pem',
+    cert:'./certificate.pem',
   }
 };
 
