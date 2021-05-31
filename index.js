@@ -15,8 +15,7 @@ const config = {
   },
   https: {
     port: 80,
-    key:'./privatekey.pem',
-    cert:'./certificate.pem',
+    allow_origin: '*'
   }
 };
 
