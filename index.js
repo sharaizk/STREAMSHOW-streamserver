@@ -13,10 +13,6 @@ const config = {
   http: {
     port: 80,
     allow_origin: '*'
-  },
-  https: {
-    port: 80,
-    allow_origin: '*'
   }
 };
 
