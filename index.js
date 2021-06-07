@@ -4,7 +4,7 @@ const PORT = process.env.PORT || 1935
 const config = {
 
   rtmp: {
-    port: PORT,
+    port: 3000,
     chunk_size: 60000,
     gop_cache: true,
     ping: 30,
